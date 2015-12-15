@@ -1,9 +1,10 @@
 
 body,section{background-color: #fdfdfd;}
 body{font-family: "Open Sans"}
-section, footer{padding: 30px 0px;}
+section, footer{padding: 40px 0px;}
 .tblue
 {color: #55ACEE !important;}
+a{color: #55ACEE}
 .tblue-bg
 {background-color: #55ACEE;color:white;}
 .tdark-bg
@@ -12,14 +13,16 @@ section, footer{padding: 30px 0px;}
 {background-color: #0C4479;color:white;}
 .tgray-bg
 {background-color: #e1e8ed;}
-p{
+p,ol{
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  margin-bottom: 40px;
-} 
+  margin-bottom: 30px;
+}
+
 b{font-weight: 600;}
 h4{font-family: "Montserrat", Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 200}
 h3{font-family: "Open Sans", Helvetica, Arial, sans-serif;font-size: 22px;font-weight: 300}
+h2{font-family: "Open Sans", Helvetica, Arial, sans-serif;font-size: 32px;font-weight: 200;text-align: center;}
 h1{font-family: "Open Sans", Helvetica, Arial, sans-serif;font-size: 40px;font-weight: 200;padding-top: 50px;}
 blockquote{    color: #292f33;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -30,6 +33,8 @@ blockquote{    color: #292f33;
 .container {
   width: 970px !important;
 }
+.hideme
+{opacity:0;}
 
 /* NAVBAR */
 .navbar, .navbar-default
@@ -79,11 +84,28 @@ blockquote{    color: #292f33;
   letter-spacing: 0;
   margin-bottom: 15px;
 }
+.btn-inverse{
+  background-color: #0C4479;
+}
 .btn-alt a{
   padding: 10px;
   font-weight: 300; 
   font-size: 14px;
   color: #55ACEE;
+}
+.mockup{
+ width:73%;
+ margin-top: -20px;
+ margin-left: 30px;
+}
+.table.feature-matrix{
+width: 50%;
+max-width: 50%;
+font-size: 14px;
+}
+.table.feature-matrix > tbody > tr > td > b{
+font-weight: 900;
+font-size: 16px;
 }
 /* BENEFIT */
 .benefit{
