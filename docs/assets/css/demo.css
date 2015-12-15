@@ -13,12 +13,11 @@ a{color: #55ACEE}
 {background-color: #0C4479;color:white;}
 .tgray-bg
 {background-color: #e1e8ed;}
-p,ol{
+p,ol,ul{
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin-bottom: 30px;
 }
-
 b{font-weight: 600;}
 h4{font-family: "Montserrat", Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 200}
 h3{font-family: "Open Sans", Helvetica, Arial, sans-serif;font-size: 22px;font-weight: 300}
@@ -30,6 +29,7 @@ blockquote{    color: #292f33;
     margin-bottom: 40px;
     border-left: 3px solid #55ACEE;
   }
+  .btn{border-radius: 2px;}
 .container {
   width: 970px !important;
 }
@@ -99,8 +99,8 @@ blockquote{    color: #292f33;
  margin-left: 30px;
 }
 .table.feature-matrix{
-width: 50%;
-max-width: 50%;
+width: 90%;
+max-width: 90%;
 font-size: 14px;
 }
 .table.feature-matrix > tbody > tr > td > b{
@@ -131,11 +131,19 @@ font-size: 16px;
     border: 1px solid;
     text-align: center;
     font-size: 14px;
+    border-radius: 2px;
 }
 .example:hover{
     background-color: white;
     color: #0C4479;
 }
+
+/* TEAM */
+.team{
+  list-style: none;
+}
+.team img{width: 70px;}
+.team span{padding-left: 10px;}
 /* FAQ */
 .FAQ-col{
   font-weight: 200;
